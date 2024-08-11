@@ -50,7 +50,7 @@ To run the application locally, simply open the `index.html` file in a web brows
 - Add a feature to export notes as a text file.
 
 ## Preview
-[Checkout Here]()
+[Checkout Here](https://anilkumar5590.github.io/Sticky-Notes-/)
 
 ## 🔗 Follow us
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anilkumarkonathala/)
