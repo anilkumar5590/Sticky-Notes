@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#container{
+    min-height: 100vh;
+    margin-top: 52px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items: flex-start;
+}
+
+#addNote{
+    position: fixed;
+    font-size: 28px;
+    left: 10px;
+    top: 10px;
+    background-color:tomato;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#addNote:hover{
+    background-color: #06a006;
+}
+
+.sticky-note{
+    background: transparent;
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#icons{
+    background-color: #222831;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#icons i{
+    padding: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#icons i:hover{
+    color: #aca1a1;
+}
+
+.sticky-note textarea{
+    width: 300px;
+    border: none;
+    min-height: 220px;   
+    resize: none;     
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    overflow: hidden;
+    background-color: #393e46;
+    border-radius: 0px 0px 10px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sticky-note:hover{
+    background-color: #293e46;
+}
+
+.sticky-note textarea:focus{
+    outline:none;
+}
